@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    margin-left: 3%;
+    width: 50%;
+    height: 50%;
+}
+
+.nav a {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.navbar a,
+ul li {
+    font-size: 15px;
+    padding-left: 16px;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.content {
+    margin-top: 3%;
+    max-width: 100%;
+}
+
+.container-content {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.container-content h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.slider1 img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+.slider1 img:hover {
+    width: 110%;
+    opacity: 85%;
+}
+
+.slider1 h6,
+p {
+    text-align: center;
+    width: 100%;
+}
+
+.slider1 p {
+    font-size: 13px;
+}
+
+.box {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.contact {
+    margin-left: 20px;
+    border: 1px solid rgb(130, 132, 133);
+}
+
+.contact:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box h6,
+p {
+    text-align: center;
+}
+
+.box p {
+    opacity: 60%;
+}
