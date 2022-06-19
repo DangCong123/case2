@@ -14,10 +14,29 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="chatbot.js"></script>
 </head>
 
 <body>
     <div class="header">
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId: "1784956665094089",
+                    xfbml: true,
+                    version: "v2.6"
+                });
+            };
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) { return; }
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-customerchat" page_id="103141052447766"></div>
+        
         <div class="container-fluid">
             <div class="row">
                 <div class="navbar-1">
@@ -27,7 +46,7 @@
                         </div>
                         <div class="navbar col-7">
                             <div class="container-fluid">
-                                <a class="navbar-brand" href="#">Home</a>
+                                <a class="navbar-brand" href="index.html">Home</a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -640,6 +659,7 @@
             </div>
         </div>
         <div class="footer-buttom">
+            
             <div class="footer2">
                 <div class="row">
                     <p class="center-block">Mọi nội dung tại đây © 2005 – 2022 Công ty TNHH Tư nhân Agoda. Bảo Lưu Mọi
